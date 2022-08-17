@@ -31,21 +31,20 @@
 	
 	
 	
-    <distributionManagement>
+    
+	
+	<distributionManagement>
     <repository>
         <id>central</id>
         <name>a0fbuvu5n5p18-artifactory-primary-0-releases</name>
-        <url>https://test047.jfrog.io/artifactory/jenkins</url>
+        <url>https://test047.jfrog.io/artifactory/dummy-repo</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>a0fbuvu5n5p18-artifactory-primary-0-snapshots</name>
-        <url>https://test047.jfrog.io/artifactory/jenkins</url>
+        <url>https://test047.jfrog.io/artifactory/dummy-repo</url>
     </snapshotRepository>
 </distributionManagement>
-	
-	
-
 	<dependencies>
 		
 		<dependency>
